@@ -26,7 +26,6 @@
 -dontskipnonpubliclibraryclassmembers
 -dontpreverify
 -verbose
--ignorewarning
 -printmapping proguardMapping.txt
 -optimizations !code/simplification/cast,!field/*,!class/merging/*
 -keepattributes *Annotation*,InnerClasses
